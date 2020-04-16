@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mongos database lessons</title>
+</head>
+<body>
+    {{#each data}}
+        <div>
+            <h1>Name: {{this.name}} //Email: {{this.email}} // ID: {{this._id}} </h1>
+        </div>
+
+    {{/each}}
+    <div>
+            <h2>Selected User: {{dataUser.email}}</h2>
+    </div>
+</body>
+</html>
